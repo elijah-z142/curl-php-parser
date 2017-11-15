@@ -18,10 +18,15 @@ It should ignore other code types, but this is not tested (just a POC + needs mo
 example output:
 
 ```Function curl_init with args: http://www.example.com/
+
 Function curl_setopt with args: {null}, CURLOPT_FILE, {null}
+
 Function curl_setopt with args: {null}, CURLOPT_HEADER, 0
+
 Function curl_exec with args: {null}
+
 Function curl_close with args: {null}
+
 Function fclose with args: {null}
 ```
 
