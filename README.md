@@ -53,9 +53,3 @@ For attribution:
 [Runtime Converter (Online PHP to Java Converter)](http://www.runtimeconverter.com)
 
 http://www.runtimeconverter.com
-
-License: MIT
-
-For attribution:
-Runtime Converter (Online PHP to Java Converter)
-http://www.runtimeconverter.com
