@@ -45,12 +45,12 @@ The parser is minimalistic and based on a few assumptions:
 It should ignore other code types, but this is not tested (just a POC + needs more null checks).
 
 example output:
-> Function curl_init with args: http://www.example.com/
-> Function curl_setopt with args: {null}, CURLOPT_FILE, {null}
-> Function curl_setopt with args: {null}, CURLOPT_HEADER, 0
-> Function curl_exec with args: {null}
-> Function curl_close with args: {null}
-> Function fclose with args: {null}
+> curl_init with args: http://www.example.com/
+> curl_setopt with args: {null}, CURLOPT_FILE, {null}
+> curl_setopt with args: {null}, CURLOPT_HEADER, 0
+> curl_exec with args: {null}
+> curl_close with args: {null}
+> fclose with args: {null}
 
 License: MIT
 
