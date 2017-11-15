@@ -16,6 +16,7 @@ The parser is minimalistic and based on a few assumptions:
 It should ignore other code types, but this is not tested (just a POC + needs more null checks).
 
 example output:
+
 ```Function curl_init with args: http://www.example.com/
 Function curl_setopt with args: {null}, CURLOPT_FILE, {null}
 Function curl_setopt with args: {null}, CURLOPT_HEADER, 0
