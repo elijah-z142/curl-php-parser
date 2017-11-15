@@ -2,8 +2,8 @@
 
 $text = file_get_contents("curl.txt");
 $ast  = ast\parse_code($text, $version = 50);
-$meta = ast\get_metadata();
 
+//$meta = ast\get_metadata();
 //var_dump($meta[257]); exit(); //AST_ASSIGN, AST_CALL
 
 class CurlCall
